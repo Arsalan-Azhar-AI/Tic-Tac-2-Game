@@ -1,0 +1,29 @@
+.container{
+    padding: 10px;
+    position: absolute;
+    align-items: center;
+    left: 30%;
+    top: 20%;
+}
+button{
+    background-color: cadetblue;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border: blue solid 1px;
+    color: rgb(77, 0, 0);
+}
+.reset{
+    position: absolute;
+    left: 32%;
+    top: 50%;
+    width: 100px;
+    height: 50px;
+    color: black;
+    background-color: aliceblue;
+    font-size: 30px;
+    border-radius: 10px;
+}
+body{
+    background-color: black;
+}
