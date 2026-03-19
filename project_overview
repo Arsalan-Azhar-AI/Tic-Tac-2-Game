@@ -1,0 +1,18 @@
+Tic-Tac-2-Game
+Overview: A browser-based Tic-Tac-Toe game for two players (local, no AI) built with HTML, CSS, and JavaScript. It provides an interactive game board where two users alternate turns to play.
+
+Features:
+
+Game Board: A 3×3 grid drawn in HTML/CSS. Clicking a cell marks it with “X” or “O” depending on the turn.
+Turn Tracking: JavaScript keeps track of turns (X vs O) and prevents overwriting an occupied cell.
+Win Detection: The script checks all win conditions (rows, columns, diagonals) after each move and announces the winner or a draw.
+Reset: A “Reset Game” button allows starting a new round without reloading the page.
+Responsive UI: CSS ensures the game is centered and looks good on small screens.
+Setup Instructions:
+
+Clone: Copy the code to a directory (no server needed since it’s all static).
+Run: Open index.html (or similar) in a web browser. The game board appears.
+Play: Players click squares to place their marks. The game highlights the result when someone wins or the board fills up.
+Usage:
+
+Simply open the page to play. The current player’s symbol appears automatically. When the game ends (win or draw), the board typically disables further moves.
